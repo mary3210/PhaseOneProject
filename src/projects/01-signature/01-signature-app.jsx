@@ -8,7 +8,9 @@ export default function EsignatureApp() {
         // console.log(e.target.value)
         setName(e.target.value)
     };
-    const handleDateChange = (e) 
+    const handleDateChange = (e)  => {
+        setDate(e.target.value)
+    }
     const inputStyle = {
         border: "none",
         borderBottom: "2px, dotted",
