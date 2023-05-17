@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Title() {
   return (
-    <div>
-      
-    </div>
+    
+      <div className='title text-center'>Title</div>
+    
   )
 }
