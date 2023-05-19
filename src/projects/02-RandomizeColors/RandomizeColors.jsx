@@ -11,6 +11,7 @@ export default function RandomizeColors() {
         let body = document.querySelector("body");
         body.style.background = getRandomColor();
         console.log(body.style.background)
+        e.target.style.backgroundColor = getRandomColor();
     };
 
     function getRandomColor () {
