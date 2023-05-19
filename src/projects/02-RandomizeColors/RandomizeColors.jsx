@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Title from '../components/Title';
 export default function RandomizeColors (){
 
     return(
-        <div>RandomizeColor</div>
+        <div className="container">
+            <Title />
+             RandomizeColor</div>
         
 
     )
