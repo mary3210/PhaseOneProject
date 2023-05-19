@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../components/Title";
 export default function RandomizeColors() {
   return (
-    <div className="container">
+    <div className="container m-auto text-center">
       <Title text={"Randomize Color"} classes={"mb-4"} />
       <button className="btn btn-danger">Click me</button>
       <button className="btn btn-success">Click me</button>
