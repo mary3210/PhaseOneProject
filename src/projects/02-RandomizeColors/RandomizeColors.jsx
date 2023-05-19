@@ -4,8 +4,8 @@ export default function RandomizeColors (){
 
     return(
         <div className="container">
-            <Title />
-             RandomizeColor</div>
+            <Title text={"RandomizeColor"}/>
+            </div>
         
 
     )
