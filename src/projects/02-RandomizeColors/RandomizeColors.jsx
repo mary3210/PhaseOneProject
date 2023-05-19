@@ -6,8 +6,13 @@ export default function RandomizeColors() {
     }
     const handleSecClick = (e) => {
 
-        console.log(e.target);
-    }
+        // console.log(e.target);
+        console.log(getRandomColor())
+        let body = document.querySelector("body");
+        body.style.background = getRandomColor();
+        console.log(body.style.background)
+    };
+
     function getRandomColor () {
         let letters = "0123456789ABCDEF";
         let color = "#"

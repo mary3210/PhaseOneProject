@@ -14,7 +14,7 @@ li {
 }
 .App {
   text-align: center;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   height: 100vh;
 
   margin: auto;
