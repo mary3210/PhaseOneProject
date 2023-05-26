@@ -5,8 +5,8 @@ export default function LikePhotoApp(){
 
     return(
         <div className='container'>
-            <Title/>
-            LikePhotoApp</div>
+            <Title text={"LikePhotoApp"}/>
+           </div>
         
 
     )
