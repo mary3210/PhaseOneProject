@@ -7,7 +7,7 @@ export default function LikePhotoApp(){
         <div className='container text-center'>
             <Title text={"Like Photo App"}/>
             <Title classes={"subtitle"} text={"Likes"}/>
-            <div className="card card-dark m-auto" style={{width: 300}}>
+            <div className="card card-dark m-auto" style={{width: 300, cursor: "pointer"}}>
 
             </div>
            </div>
