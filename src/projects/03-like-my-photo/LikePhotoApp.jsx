@@ -4,9 +4,9 @@ import Title from '../components/Title';
 export default function LikePhotoApp(){
 
     return(
-        <div className='container'>
+        <div className='container text-center'>
             <Title text={"Like Photo App"}/>
-            <Title classes={"subtitle"} text={"Like Photo App"}/>
+            <Title classes={"subtitle"} text={"Likes"}/>
            </div>
         
 
